@@ -1,7 +1,17 @@
 aid: peerby
 name: Peerby
-description: Peerby is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Peerby is a Dutch peer-to-peer sharing platform that lets neighbors borrow and
+  rent everyday goods from one another instead of buying them new. Through its
+  website and mobile apps, members request or list items such as tools, party and
+  event equipment, electronics, bicycles, and household goods, then arrange local
+  pickup and return. Positioned as an affordable, convenient, and more sustainable
+  alternative to ownership, Peerby aims to reduce consumption and waste by unlocking
+  the underused items already sitting in people's homes. Backed by Techstars, it was
+  added to the API Evangelist network as a portfolio lead. Peerby operates a consumer
+  single-page web application and native apps; it does not publish a public
+  developer/API program, OpenAPI definitions, SDKs, or a .well-known discovery
+  surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/peerby/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.peerby.com/img/social_en.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Sharing Economy
+- Peer to Peer
+- Marketplace
+- Rental
+- Sustainability
+- Consumer
+- Netherlands
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/peerby-domain-security.yml
 - type: Website
   url: https://peerby.com/
+- type: GitHubOrganization
+  url: https://github.com/Peerby
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
